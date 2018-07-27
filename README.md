@@ -3,9 +3,9 @@ Team: Anna, Muriel, Sarah
 
 Women in Tech Machine Learning Product Hackathon
 
-July 27, 2018
+July 27-29, 2018
 
-##Local Installation
+## Local Installation
 
 *Clone this repository and cd into the project directory*
 
@@ -34,7 +34,7 @@ Boot-up app on your local server
 
     python manage.py runserver
 
-##Git Flow
+## Git Flow
 * Add new Issues on Github
 * Check-out a new feature branch
 * Commit changes
