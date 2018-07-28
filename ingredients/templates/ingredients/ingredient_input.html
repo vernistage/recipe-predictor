@@ -1,0 +1,14 @@
+{% block content %}
+  <h1>Find a Recipe</h1>
+  <form method="POST" class="post-form">{% csrf_token %}
+    {{ form.as_p }}
+  <button type="submit" class="save btn btn-default">Submit</button>
+  {% if recipes %}
+    <ul>
+      {% for recipe in recipes %}
+      <li>Type: {{ recipe.0 }}</li>
+      <li>Number: {{ recipe.1 }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}
