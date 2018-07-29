@@ -264,7 +264,7 @@ p {
 -------------------------------------------------------- */
 @media (min-width: 501px){
   .header {
-    height: 65vh;
+    height: 100vh;
     background: white url("../images/food-banner.jpg");
     background-size: cover;
     position: relative;
@@ -314,8 +314,11 @@ p {
 }
 .main-input{
   position: absolute;
-  top: 30vh;
+  top: 35vh;
   left: 20vh;
+}
+.inst-button{
+  margin-top: 15px
 }
 #particles-js {
   z-index: 9;
@@ -658,7 +661,7 @@ footer p {
 -------------------------------------------------------- */
 @media screen and (max-width: 500px) {
     .header {
-      height: 65vh;
+      height: 100vh;
       background-color: white;
     }
 }
