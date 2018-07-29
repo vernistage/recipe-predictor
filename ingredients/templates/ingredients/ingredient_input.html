@@ -1,0 +1,64 @@
+{% load static %}
+
+{% block content %}
+  <head>
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Recipe finder">
+    <meta name="keywords" content="portfolio, personal, food, recipes, cooking, groceries">
+    <!-- title -->
+    <title>Recipe Wizard</title>
+    <!-- bootstrap css -->
+		<link rel="stylesheet" href="{% static 'ingredients/css/bootstrap.min.css' %}">
+
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
+
+		<!-- Font Icon Core CSS -->
+		<link rel="stylesheet" href="{% static 'ingredients/css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'ingredients/css/et-line.css' %}">
+
+		<!-- Core Style Css -->
+    <link rel="stylesheet" href="{% static 'ingredients/css/style.css' %}">
+  </head>
+  <body>
+    <!-- ====== Header ======  -->
+    <section id="home" class="header text-center" data-scroll-index="0">
+        <div class="container main-input">
+          <div class="row">
+            <h1>Find a Recipe</h1>
+            <form method="POST" class="post-form">{% csrf_token %}
+              {{ form.as_p }}
+            <button type="submit" class="save btn btn-default">Submit</button>
+        </div><!-- /row -->
+      </div><!-- /container -->
+    </section>
+    <!-- ====== End Header ======  -->
+    <!-- ====== Results======  -->
+    {% if recipes %}
+  		<section class="services section-padding bg-gray text-center pb-70" data-scroll-index="2">
+  			<div class="container">
+  				<div class="row">
+  					<!-- section heading -->
+  					<div class="section-head">
+  						<h3>Recipe Results</h3>
+  					</div>
+  					<!-- recipes-->
+            {% for recipe in recipes %}
+    					<div class="col-md-4">
+    						<div class="item">
+    							<h6>{{ recipe.0 }}</h6>
+    							<p>{{ recipe.1 }}</p>
+    						</div>
+    					</div>
+            {% endfor %}
+  				</div><!-- /row -->
+  			</div><!-- /container -->
+  		</section>
+    {% endif %}
+		<!-- ====== End Results ======  -->
+  </body>
+{% endblock %}
