@@ -264,7 +264,7 @@ p {
 -------------------------------------------------------- */
 @media (min-width: 501px){
   .header {
-    height: 65vh;
+    height: 100vh;
     background: white url("../images/food-banner.jpg");
     background-size: cover;
     position: relative;
@@ -314,8 +314,11 @@ p {
 }
 .main-input{
   position: absolute;
-  top: 30vh;
+  top: 50vh;
   left: 20vh;
+}
+.inst-button{
+  margin-top: 15px
 }
 #particles-js {
   z-index: 9;
@@ -325,6 +328,9 @@ p {
 /* -------------------------------------------------------
                      Hero
 -------------------------------------------------------- */
+.item.recipe li {
+  text-align: left;
+}
 .hero .hero-img {
   padding: 0 0 0 30px;
   position: relative;
@@ -404,6 +410,7 @@ p {
           box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   border-radius: 5px;
+  height: 75%;
 }
 .services .item:hover .icon {
   background: #1c1c1c;
@@ -657,7 +664,7 @@ footer p {
 -------------------------------------------------------- */
 @media screen and (max-width: 500px) {
     .header {
-      height: 65vh;
+      height: 100vh;
       background-color: white;
     }
 }
