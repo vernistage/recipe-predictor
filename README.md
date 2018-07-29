@@ -26,10 +26,6 @@ Install project requirements
 
     pip install -r requirements.txt
 
-Start up the database (Set-up TODO)
-
-    python manage.py migrate
-
 Boot-up app on your local server
 
     python manage.py runserver
@@ -38,15 +34,3 @@ Boot-up app on your local server
 ![landing page](readme_assets/images/landing-page.png "Landing Page")
 ![chicken results](readme_assets/images/main-results.png "Chicken Results")
 ![chicken alternate results](readme_assets/images/trial-results.png "Alternate Chicken Results")
-
-
-## Git Flow
-* Add new Issues on Github
-* Check-out a new feature branch
-* Commit changes
-* Push-up changes
-* Create a pull request and request a code review from a teammate
-* Link pull request to appropriate issue
-* Locally resolve any merge conflicts before merging to master
-* Pull down updated master branch
-* Repeat!
