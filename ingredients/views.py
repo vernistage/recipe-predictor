@@ -16,3 +16,8 @@ def ingredient_input(request):
         form = IngredientForm()
         context['form'] = form
         return render(request, 'ingredients/ingredient_input.html', context)
+
+# Index(['calories', 'categories', 'date', 'desc', 'directions', 'fat',
+#        'ingredients', 'protein', 'rating', 'sodium', 'title',
+#        'gensim_directions', 'gensim_directions_doc', 'vec', 'diff'],
+#       dtype='object')

@@ -41,22 +41,25 @@
     {% if recipes %}
   		<section class="services section-padding bg-gray text-center pb-70" data-scroll-index="2">
   			<div class="container">
-  				<div class="row">
-  					<!-- section heading -->
+  				<div class="row row-eq-height">
   					<div class="section-head">
   						<h3>Recipe Results</h3>
   					</div>
-  					<!-- recipes-->
             {% for recipe in recipes %}
     					<div class="col-md-4">
-    						<div class="item">
-    							<h6>{{ recipe.0 }}</h6>
-    							<p>{{ recipe.1 }}</p>
+    						<div class="item recipe">
+    							<h6>{{ recipe.title }}</h6>
+                  {% for ingredient in recipe.ingredients|slice:"5" %}
+      							<ul>
+                      <li>{{ ingredient }} </li>
+                    </ul>
+                  {% endfor %}
+                  <button> Click for Instructions </button>
     						</div>
     					</div>
             {% endfor %}
-  				</div><!-- /row -->
-  			</div><!-- /container -->
+  				</div>
+  			</div>
   		</section>
     {% endif %}
 		<!-- ====== End Results ======  -->
