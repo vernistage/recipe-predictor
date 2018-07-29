@@ -404,6 +404,7 @@ p {
           box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   border-radius: 5px;
+  height: 75%;
 }
 .services .item:hover .icon {
   background: #1c1c1c;
