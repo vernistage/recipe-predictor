@@ -34,6 +34,12 @@ Boot-up app on your local server
 
     python manage.py runserver
 
+## Web Application
+![landing page](readme_assets/images/landing-page.png "Landing Page")
+![chicken results](readme_assets/images/main-results.png "Chicken Results")
+![chicken alternate results](readme_assets/images/trial-results.png "Alternate Chicken Results")
+
+
 ## Git Flow
 * Add new Issues on Github
 * Check-out a new feature branch
