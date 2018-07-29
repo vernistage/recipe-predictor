@@ -43,18 +43,34 @@
   			<div class="container">
   				<div class="row row-eq-height">
   					<div class="section-head">
-  						<h3>Recipe Results</h3>
+  						<h3>{{ ingredient|title }} Recipe Results</h3>
   					</div>
             {% for recipe in recipes %}
     					<div class="col-md-4">
     						<div class="item recipe">
+                  <img src="{% static 'ingredients/images/recipe-book.png' %}" alt="Recipe book" style="width:40px;height:40px;margin-bottom:10px;">
     							<h6>{{ recipe.title }}</h6>
                   {% for ingredient in recipe.ingredients|slice:"5" %}
       							<ul>
                       <li>{{ ingredient }} </li>
                     </ul>
                   {% endfor %}
-                  <button> Click for Instructions </button>
+    						</div>
+    					</div>
+            {% endfor %}
+            <div class="section-head">
+  						<h3>Why Not Try...</h3>
+  					</div>
+            {% for recipe in recommended_recipes %}
+    					<div class="col-md-4">
+    						<div class="item recipe">
+                  <img src="{% static 'ingredients/images/recipe-book.png' %}" alt="Recipe book" style="width:40px;height:40px;margin-bottom:10px;">
+    							<h6>{{ recipe.title }}</h6>
+                  {% for ingredient in recipe.ingredients|slice:"5" %}
+      							<ul>
+                      <li>{{ ingredient }} </li>
+                    </ul>
+                  {% endfor %}
     						</div>
     					</div>
             {% endfor %}

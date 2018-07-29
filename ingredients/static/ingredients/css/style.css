@@ -314,7 +314,7 @@ p {
 }
 .main-input{
   position: absolute;
-  top: 35vh;
+  top: 50vh;
   left: 20vh;
 }
 .inst-button{
@@ -328,6 +328,9 @@ p {
 /* -------------------------------------------------------
                      Hero
 -------------------------------------------------------- */
+.item.recipe li {
+  text-align: left;
+}
 .hero .hero-img {
   padding: 0 0 0 30px;
   position: relative;
