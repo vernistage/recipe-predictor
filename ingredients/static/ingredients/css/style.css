@@ -262,21 +262,14 @@ p {
 /* -------------------------------------------------------
                      Header
 -------------------------------------------------------- */
-.header {
-  height: 100vh;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-}
-.header:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: .15;
-  z-index: 2;
+@media (min-width: 501px){
+  .header {
+    height: 65vh;
+    background: white url("../images/food-banner.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
 }
 .header .v-middle {
   z-index: 11;
@@ -321,8 +314,8 @@ p {
 }
 .main-input{
   position: absolute;
-  top: 40vh;
-  left: 25vh;
+  top: 30vh;
+  left: 20vh;
 }
 #particles-js {
   z-index: 9;
@@ -662,6 +655,12 @@ footer p {
 /* -------------------------------------------------------
                     Responsive
 -------------------------------------------------------- */
+@media screen and (max-width: 500px) {
+    .header {
+      height: 65vh;
+      background-color: white;
+    }
+}
 @media screen and (max-width: 767px) {
   .navbar-default .logo {
     margin-left: 20px;
