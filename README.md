@@ -14,7 +14,7 @@ Are you done wondering what to cook for dinner every night? Recipe Wizard takes 
 
 ## Local Installation
 
-Clone this repository and cd into the project directory
+Clone this repository and *cd* into the project directory
 
 
 Install a virtual environment for your dependencies. (You can also use [Anaconda](https://anaconda.org/).)
