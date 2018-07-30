@@ -1,9 +1,12 @@
-# Recipe Predictor
-Team: Anna, Muriel, Sarah
+# Recipe Wizard
+Winning Team: Recipe Wizards
+- [Anna Ayzenshtat](https://github.com/annaayzenshtat)
+- [Muriel Grobler](https://github.com/murielgrobler)
+- [Sarah Colby](https://github.com/vernistage)
 
-Women in Tech Machine Learning Product Hackathon
+Women in Tech Machine Learning Product Hackathon 
 
-July 27-29, 2018
+July 28-29, 2018
 
 ## Local Installation
 
