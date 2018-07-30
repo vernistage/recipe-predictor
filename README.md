@@ -17,7 +17,7 @@ Are you done wondering what to cook for dinner every night? Recipe Wizard takes 
 Clone this repository and cd into the project directory
 
 
-Install a virtual environment for your dependencies. (You can also use [Anaconda](https://anaconda.org/) or whichever you prefer.)
+Install a virtual environment for your dependencies. (You can also use [Anaconda](https://anaconda.org/).)
 
     python3 -m venv myvenv
 
