@@ -14,7 +14,7 @@ Are you done wondering what to cook for dinner every night? Recipe Wizard takes 
 
 ## Local Installation
 
-*Clone this repository and cd into the project directory*
+Clone this repository and cd into the project directory
 
 
 Install a virtual environment for your dependencies. (You can also use [Anaconda](https://anaconda.org/) or whichever you prefer.)
@@ -37,9 +37,14 @@ Boot-up app on your local server
 
     python manage.py runserver
   
-Head to [ROOT_URL]/ingredient
+Head to 
+
+    [ROOT_URL]/ingredient
 
 ## Web Application
 ![landing page](readme_assets/images/landing-page.png "Landing Page")
+Landing page, where users input ingredients.
 ![chicken results](readme_assets/images/main-results.png "Chicken Results")
+Recipe Wizard sends the user a few recipes that most closely match the input ingredients.
 ![chicken alternate results](readme_assets/images/trial-results.png "Alternate Chicken Results")
+Recipe Wizard sends the user recommended recipes that are similar to the user's tastes and input.
