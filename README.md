@@ -29,6 +29,8 @@ Install project requirements
 Boot-up app on your local server
 
     python manage.py runserver
+  
+Head to [ROOT_URL]/ingredient
 
 ## Web Application
 ![landing page](readme_assets/images/landing-page.png "Landing Page")
