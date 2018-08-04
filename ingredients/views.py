@@ -10,7 +10,7 @@ def ingredient_input(request):
         if form.is_valid():
             ingredient = form.cleaned_data['ingredient']
             context['form'] = IngredientForm()
-            recipes = form.send_ingredient("./word2vec_model", ingredient)
+            recipes = form.send_ingredient("data/word2vec_model", ingredient)
             context['recipes'] = recipes[:3]
             context['recommended_recipes'] = recipes[3:9]
             context['ingredient'] = ingredient
