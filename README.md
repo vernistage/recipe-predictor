@@ -4,7 +4,7 @@ Winning Team: Recipe Wizards
 - [Muriel Grobler](https://github.com/murielgrobler)
 - [Sarah Colby](https://github.com/vernistage)
 
-Women in Tech Machine Learning Product Hackathon 
+Women in Tech Machine Learning Product Hackathon
 
 July 28-29, 2018
 
@@ -38,9 +38,9 @@ Boot-up app on your local server
     python manage.py runserver
 
 ## Web Application
-![landing page](readme_assets/images/landing-page.png "Landing Page")
+![landing page](readme_assets/images/landing.gif "Landing Page")
 Landing page, where users input ingredients.
-![chicken results](readme_assets/images/main-results.png "Chicken Results")
+![chicken results](readme_assets/images/submission.gif "Chicken Results")
 Recipe Wizard sends the user a few recipes that most closely match the input ingredients.
-![chicken alternate results](readme_assets/images/trial-results.png "Alternate Chicken Results")
+![chicken alternate results](readme_assets/images/extra.gif "Alternate Chicken Results")
 Recipe Wizard sends the user recommended recipes that are similar to the user's tastes and input.
