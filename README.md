@@ -39,8 +39,13 @@ Boot-up app on your local server
 
 ## Web Application
 ![landing page](readme_assets/images/landing.gif "Landing Page")
+
 Landing page, where users input ingredients.
+
 ![chicken results](readme_assets/images/submission.gif "Chicken Results")
+
 Recipe Wizard sends the user a few recipes that most closely match the input ingredients.
+
 ![chicken alternate results](readme_assets/images/extra.gif "Alternate Chicken Results")
+
 Recipe Wizard sends the user recommended recipes that are similar to the user's tastes and input.
