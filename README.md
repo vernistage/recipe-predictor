@@ -10,7 +10,7 @@ July 28-29, 2018
 
 ## Description
 
-Are you done wondering what to cook for dinner every night? Recipe Wizard takes your cravings and returns to you two kinds of recipes: Ones that most closely match your desired ingredients and others that may not match your initial desires but the Wizard thinks you might like. The more Recipe Wizard learns about your tastes, the more accurate its recommended recipes. Eventually, we will integrate Recipe Wizard with grocery delivery services to automate weekly groceries and accompanying recipes that match your tastes and food habits. Gone is the frustation of wondering what to cook and purchasing expensive pre-planned meal kits.
+Are you done wondering what to cook for dinner every night? Recipe Wizard takes your cravings and returns to you two kinds of recipes: Ones that most closely match your desired ingredients and others that may not match your initial desires but the Wizard thinks you might like. The more Recipe Wizard learns about your tastes, the more accurate its recommended recipes.Gone is the frustation of wondering what to cook and purchasing expensive pre-planned meal kits.
 
 ## Local Installation
 
