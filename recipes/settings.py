@@ -32,7 +32,6 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'www.whatsfordinner.today',
 
 INSTALLED_APPS = [
     'recipes',
-    'welcome',
     'ingredients',
     'django.contrib.admin',
     'django.contrib.auth',
